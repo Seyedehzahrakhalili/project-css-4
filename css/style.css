@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "byekan";
+    src: url("../fonts/Byekan.ttf") format("truetype");
+    src: url("../fonts/Byekan.woff") format("woff");
+}
+@font-face {
+    font-family: "lalezar";
+    src: url("../fonts/lalezar.ttf") format("truetype");
+    src: url("../fonts/lalezar.woff") format("woff");
+}
+body{
+    font-family: "byekan";
+}
+.header{
+    text-align: center;
+    color: aliceblue;
+    height: 550px;
+    background-image: url("../images/background.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+.nav-list{
+    list-style-type: none;
+}
+.nav-item{
+    display: inline-block;
+    margin-top: 15px;
+}
+.nav-item a{
+    text-decoration: none;
+    padding: 20px;
+    color: aliceblue;
+    font-size: 22px;
+}
+.nav-item a:hover{
+    color:orange;
+}
+.header h1{
+    font-size: 65px;
+    word-spacing: 2px;
+    margin-top: 90px;
+    font-family: "lalezar";
+}
+.header h1 span{
+    color: orange;
+}
+.header p{
+    margin: auto;
+    width: 450px;
+    height: 55px;
+    line-height: 55px;
+    background-color: rgba(0, 0, 0, 0.037);
+    border-radius: 25px;
+    border: 1px solid whitesmoke;
+    box-shadow: -3px -2px whitesmoke;
+    margin-top: 30px;
+}
+.members{
+    margin-top: 25px;
+    text-align: center;
+    padding: 50px 30px;
+}
+.members h2{
+    font-size: 30px;
+}
+.member-list{
+ list-style: none;
+}
+.member-item{
+    display:inline-block;
+    width: 350px;
+    margin: 20px;
+    box-shadow: 0 0 15px #bbbbbb;
+
+}
+.member-pic{
+    width: 100%;
+}
+.member-name{
+    font-size: 25px;
+}
+.member-bio{
+    text-align: justify;
+    padding: 20px;
+}
+.about{
+    height: 700px;
+    background-image: url("../images/bg.jpg");
+    background-color: rgba(0, 0, 0, 0.46);
+    background-blend-mode:multiply;
+    background-position: center;
+    background-attachment: fixed;
+    background-size:cover;
+    padding: 30px 0;
+}
+.circle{
+    margin:30px auto;
+    width: 600px;
+    height: 600px;
+    background-color:rgba(175, 175, 175, 0.203);
+    border-radius: 50%;
+    text-align: center;
+    padding: 50px;
+    color: #fff;
+}
+h4{
+    text-align: center;
+    margin-top: 33px;
+    font-size: 42px;
+}
+.about p{
+    margin-top: 30px;
+    padding: 20px;
+    text-align: justify;
+
+}
+.footer{
+    height: 200px;
+    background-color: #afafaf;
+    padding: 20px 0;
+}
+.icons{
+    text-align: center;
+  background-color: #717171;
+  margin-top: 32px;
+}
+.footer p{
+    text-align: center;
+    margin-top: 25px;
+}
